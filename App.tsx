@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import HomePage from './pages/HomePage';
@@ -11,10 +10,7 @@ const App: React.FC = () => {
     <Router>
       <div className="min-h-screen bg-[#0a0a0a] text-white flex flex-col">
         <Routes>
-          {/* Admin routes don't usually share the main site's Navbar */}
           <Route path="/admin/*" element={<AdminPage />} />
-          
-          {/* Public routes */}
           <Route path="*" element={
             <>
               <Navbar />
