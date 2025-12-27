@@ -1,0 +1,7 @@
+{
+  "name": "Joy Story - Semi-permanent Makeup Center",
+  "description": "A luxurious, professional website and management system for Joy Story, a premium semi-permanent makeup center specialized in eyebrows, lips, and eyeliner.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
